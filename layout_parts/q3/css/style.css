@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.hyou {
+  table-layout: fixed;
+  width: 100%;
+  border: solid #dedede 1px;
+}
 
+.naiyou:first-child {
+  background-color: #2244aa;
+  color: white;
+}
+
+.hyou:first-child {
+  background-color: #2244aa;
+  color: white;
+}
+
+.hyou:last-child {
+  border-top: dashed 2px #000;
+}
+
+.white {
+  background-color: white;
+}
+
+.gray {
+  background-color: #ecf1f2;
+}
+
+.syasen {
+  border: dashed #000 ;
+}
+
+.naiyou {
+  width: 100%;
+  padding: 10px;
+  border: solid #dedede 1px;
+}
 /* 回答はここに書いてね */

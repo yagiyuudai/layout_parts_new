@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.graybox {
+  width: 900px;
+  background-color: #eff3f4;
+  padding: 20px;
+  margin: 0 auto;
+}
 
+.text {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.barun {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.taiko{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 /* 回答はここに書いてね */
