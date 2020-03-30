@@ -11,8 +11,13 @@
 }
 
 .square {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
   width: 100px;
-  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
   margin: 0 auto;
 }
 

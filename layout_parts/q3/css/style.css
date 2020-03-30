@@ -1,41 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.hyou {
+.tab {
   table-layout: fixed;
-  width: 100%;
   border: solid #dedede 1px;
+  width: 100%;
 }
 
-.naiyou:first-child {
-  background-color: #2244aa;
+.tab tr {
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tab th {
   color: white;
-}
-
-.hyou:first-child {
+  border: solid #dedede 1px;
   background-color: #2244aa;
-  color: white;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
-.hyou:last-child {
-  border-top: dashed 2px #000;
-}
-
-.white {
-  background-color: white;
-}
-
-.gray {
+.tab tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-.syasen {
-  border: dashed #000 ;
+.tab td {
+  vertical-align: middle;
+  border: solid #dedede 1px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.naiyou {
-  width: 100%;
-  padding: 10px;
-  border: solid #dedede 1px;
+.tab tfoot tr:last-child {
+  border-top: dashed 2px;
 }
 /* 回答はここに書いてね */

@@ -3,18 +3,17 @@
 /* 回答はここに書いてね */
 
 .white {
-  width: 90px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .align {
   display: inline-block;
-  padding: 10px;
-  text-align: center;
+  width: 90px;
+  padding: 10px 0;
   background-color: #e6f2ff;
 }
 
-.q612_content {
+.q6_margincontent {
   margin: 0 auto;
 
 }
@@ -54,26 +53,24 @@
   background-color: #fff;
 }
 
-.q6_kotei {
+.q6_fixed {
   position: relative;
 }
 
-.boxkotei {
+.boxfixed {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   margin: auto;
-  width: 30px;
-  height: 110px;
 }
 
-.q6_kahen {
+.q6_variable {
   position: relative;
 }
 
-.boxkahen {
+.boxvariable {
   position: absolute;
   top: 50%;
   left: 50%;
