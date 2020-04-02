@@ -19,8 +19,7 @@
 .text-box::before {
   content: "";
   position: absolute;
-  bottom: -18px; left: 40px;
-  margin-left: -15px;
+  bottom: -18px; left: 25px;
   width: 0px;
   height: 0px;
   border-style: solid;
@@ -36,8 +35,7 @@
   border-color: #222 transparent transparent transparent;
   content: "";
   position: absolute;
-  bottom: -25px; left: 40px;
-  margin-left: -15px;
+  bottom: -25px; left: 25px;;
   width: 0px;
   height: 0px;
   z-index: -11;
