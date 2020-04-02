@@ -27,18 +27,16 @@
   box-sizing: border-box;
 }
 
-.q7-table-box:first-child {
-  padding-left: 0;
-  vertical-align: middle;
-}
+
 .q7-table-box:last-child {
-  padding-right: 0pt;
+  padding-right: 0;
 }
 
 .q7-table-box {
   display: table-cell;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0 50px 0 0;
+  padding-left: 0;
+  vertical-align: middle;
 }
 
 .q7-block:first-child {
@@ -86,7 +84,6 @@
 
 .frex-box {
   vertical-align: top;
-  text-align: start;
   width: 300px;
   display: inline-block;
 }

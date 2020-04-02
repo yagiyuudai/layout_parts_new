@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
 .q9-contents {
   width: 550px;
   margin: 0 auto;
@@ -10,40 +9,32 @@
 .text-box{
   position: relative;
   border-radius: 30px;
-  font-size: 16px;
-  min-width: 500px;
   border: solid 5px #222;
-  line-height: 16px;
+}
+
+.text-box::before,
+.text-box::after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  border: solid;
+  border-width: 25px 25px 0 25px;
+
+}
+
+.text-box::after {
+  bottom: -18px; 
+  border-color: #fff transparent transparent transparent;
 }
 
 .text-box::before {
-  content: "";
-  position: absolute;
-  bottom: -18px; left: 25px;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 25px 25px 0 25px;
-  border-color: #fff transparent transparent transparent;
-  z-index: 00;
-}
-
-
-.text-box::after {
-  border-style: solid;
-  border-width: 25px 25px 0 25px;
   border-color: #222 transparent transparent transparent;
-  content: "";
-  position: absolute;
-  bottom: -25px; left: 25px;;
-  width: 0px;
-  height: 0px;
-  z-index: -11;
+  bottom: -25px;
 }
 
 .text {
-  display: inline-block;
   padding: 20px;
-  width: 500px;
+  line-height: 16px;
+  font-size: 16px;
 }
 /* 回答はここに書いてね */
